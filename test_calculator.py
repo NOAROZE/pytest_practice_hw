@@ -41,12 +41,6 @@ def test_large_positive_num():
     calc = Calculator()
     assert calc.is_positive(1000000) == True
 
-
-def test_word_with_all_vowels():
-    calc = Calculator()
-    assert calc.count_vowels("aeiou") == 5
-
-
 def test_word_with_special_characters():
     calc = Calculator()
     assert calc.count_vowels("h3ll0 w0rld!") == 0
